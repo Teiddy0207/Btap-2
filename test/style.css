@@ -28,28 +28,39 @@
 }
 
 .header nav ul {
-    list-style-type: none;
+    text-decoration: none;
     margin: 0;
     padding: 0;
     display: flex;
     gap: 20px;
     padding: 10px;
+
 }
 
-.Main{
+.Main {
     height: 800px;
     background-image: url("../test/image/ocean.jpg");
     background-position: center;
-position: relative;
+    position: relative;
 }
-.Content{
- width: 700px;
-background-color: rgba(51, 47, 47, 0.8);
-box-shadow: 2px 4px 8px rgb(68,67,67);
-text-align: center;
-margin: 0 auto;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
+
+.Content {
+    width: 700px;
+    background-color: rgba(51, 47, 47, 0.8);
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+}
+.Content a{
+    text-decoration: none;
+    border-radius: 5px solid black;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: yellow;
+    padding: 10px;
 }
