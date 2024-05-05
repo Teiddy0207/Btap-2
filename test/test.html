@@ -47,7 +47,63 @@
             padding: 10px;
         }
 
-        
+        .back img {
+            width: 100%;
+            max-height: 700px;
+        }
+
+        .front {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            color: white;
+            font-size: 2rem;
+            text-align: center;
+            padding: 50px;
+            background-color: rgba(96, 87, 87, 0.5);
+        }
+
+        .Content {
+            margin-top: 50px;
+        }
+
+        .top {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .bottom {
+            margin: 20px;
+            position: relative;
+            z-index: 1; 
+         
+          
+        }
+
+        .box {
+            position: relative;
+            width: 250px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .box img {
+            width: 250px;
+            display: block;
+        }
+
+        .box span {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            color: white;
+            font-weight: bold;
+        }
 
         
     </style>
@@ -66,7 +122,48 @@
                 </ul>
             </nav>
         </div>
-     
+        <div class="main">
+            <div class="back">
+                <img src="../Btap2/assets/sea.jpg" alt="">
+            </div>
+            <div class="front">
+                Welcome to my App
+            </div>
+        </div>
+        <div class="Content">
+            <div class="top">
+                <p>~ ~BEST DESTINATIONS~ ~</p>
+            </div>
+            <div class="bottom">
+                <div class="row justify-content-center">
+                    <div class="col d-flex justify-content-center align-items-center">
+                        <div class="box">
+                            <img src="../Btap2/assets/1.jpg" alt="">
+                            <span>1</span>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-center align-items-center">
+                        <div class="box">
+                            <img src="../Btap2/assets/2.jpg" alt="">
+                            <span>2</span>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-center align-items-center">
+                        <div class="box">
+                            <img src="../Btap2/assets/3.jpg" alt="">
+                            <span>3</span>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-center align-items-center">
+                        <div class="box">
+                            <img src="../Btap2/assets/4.jpg" alt="">
+                            <span>4</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
     <div class="footer"></div>
 
