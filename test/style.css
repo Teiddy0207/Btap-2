@@ -39,6 +39,7 @@ width: 100%;
     display: flex;
     gap: 20px;
     padding: 10px;
+    font-size: 25px;
 
 }
 .header a{
@@ -96,14 +97,13 @@ width: 100%;
 .Content a:hover{
     background-color: bisque;
 }
-.hightlight{
- 
-}
+
 .hightlight h2{
     text-align: center;
     text-transform: uppercase;
     margin-top: 50px;
     margin-bottom: 30px;
+ 
 }
 
 .box img{
@@ -126,4 +126,16 @@ margin: 20px 0;
 .box strong{
     margin-left:5px ;
     color: rgb(18, 122, 5);
+}
+
+.footer{
+margin-top: 100px;
+ font-size: 100px;
+ background-color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+color: aliceblue;
+gap: 30px;
 }
